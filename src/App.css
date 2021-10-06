@@ -1,0 +1,263 @@
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(193, 212, 186));
+  color: rgb(32, 28, 22);
+  background-size:cover;
+}
+
+.header{
+  display: flex;
+  list-style: none;
+  margin-left: 50%;
+  text-decoration: none;
+  font-size:large;
+  margin-top: 10px;
+  margin-bottom: 1%;
+}
+
+li{
+  margin-right: 1%;
+  padding-right: 50px;
+}
+
+a:hover {
+  color: rgb(240, 228, 248);
+}
+
+.navbarFirst{
+  margin-top: 2%;
+  list-style: none;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  font-weight: 900;
+  font-size:x-large;
+}
+
+.nav{
+  display: flex;
+}
+
+.active{
+  color: rgb(25, 46, 46);
+}
+
+.listClass{
+  text-decoration: none;
+  font-size: large;
+  font-weight: 800;
+}
+
+.title{
+  color: rgb(255, 179, 231);
+  background-image: linear-gradient(to right,rgb(21, 17, 58), rgb(10, 54, 65));
+  border-radius: 100px;
+}
+
+.rules{
+  margin-left: 55px;
+  margin-right:55px;
+  font-style: italic;
+}
+
+.food{
+  display: flex;
+}
+
+div {
+  transition: width 5s, height 5s;
+}
+
+input[type=text], select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  background: #feda71;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#feda71), to(#febe4d));
+  background: -moz-linear-gradient(#feda71, #febe4d);
+  background: linear-gradient(#feda71, #febe4d);
+  border: solid 1px #eab551;
+  border-bottom: solid 3px #b98a37;
+  box-shadow: inset 0 0 0 1px #fee9aa;
+  color: #1b130b;
+  text-shadow: 0 1px 0 #fedd9b
+}
+
+button:active {
+  background: #f9bd4f;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9bd4f), to(#f0b64d));
+    background: -moz-linear-gradient(#f9bd4f, #f0b64d);
+    background: linear-gradient(#f9bd4f, #f0b64d);
+    border: solid 1px #a77f35;
+    box-shadow: inset 0 10px 15px 0 #dba646; }
+
+button:hover {
+  background: #fec455;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fec455), to(#fecd61));
+    background: -moz-linear-gradient(#fec455, #fecd61);
+    background: linear-gradient(#fec455, #fecd61);
+    border: solid 1px #e6a93d;
+    border-bottom: solid 3px #b98a37;
+    box-shadow: inset 0 0 0 1px #fedb98; 
+}
+
+.dietButton{color: rgb(27, 13, 13); 
+  background: #cae285;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#cae285), to(#a3cd5a));
+  background: -moz-linear-gradient(#cae285, #a3cd5a);
+  background: linear-gradient(#cae285, #a3cd5a);
+  border: solid 1px #aad063;
+  border-bottom: solid 3px #799545;
+  box-shadow: inset 0 0 0 1px #e0eeb6;
+  color: #5d7731;
+  text-shadow: 0 1px 0 #d0e5a4;
+  text-decoration:none;
+  margin-top: 55px;
+  }
+
+.dietButton:hover {
+  background: #abd164;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#abd164), to(#b9d972));
+  background: -moz-linear-gradient(#abd164, #b9d972);
+  background: linear-gradient(#abd164, #b9d972);
+  border: solid 1px #98b85b;
+  border-bottom: solid 3px #799545;
+  box-shadow: inset 0 0 0 1px #cce3a1;
+}
+
+.dietButton:active {
+  background: #a4cb5d;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#a4cb5d), to(#9ec45a));
+  background: -moz-linear-gradient(#a4cb5d, #9ec45a);
+  background: linear-gradient(#a4cb5d, #9ec45a);
+  border: solid 1px #6e883f;
+  box-shadow: inset 0 10px 15px 0 #90b352; }
+  
+ .navlinkStyle{
+   color: rgb(63, 90, 19);
+   text-decoration: none;
+ } 
+
+.formCard{
+  float: left;
+  margin-left: 4%;
+  margin-right: 2%;
+  background: rgba(2, 35, 121, 0.7);
+  border-radius: 50px;
+}
+
+.formCard2{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 50%;
+  margin-right: 5%;
+  border-radius: 20px;
+  height: 450px;
+  margin-top: 3%;
+  overflow: auto;
+  background: rgba(250, 251, 253, 0.3);
+}
+
+#bmiCalculated{
+    height: 10em;
+    align-items: center;
+    justify-content:center;}
+
+#dietList{
+  background-image: url("pngpaper.png");
+  background-size: 680px 700px;
+  position: absolute;
+  margin-left: 18%;
+  margin-top:3%;
+  overflow: auto;
+  width: 350px;
+
+}
+
+.dietListStart{
+  margin-top: 20%;
+}
+
+.calculatedList{
+  background-color: rgb(94, 121, 146);
+  border-style:groove;
+  margin-top: 1%;
+  color:darkslategray;
+}
+
+
+#list{
+  list-style: none;
+}
+
+.bmiInfoLeft{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  font-size: 18px;
+}
+
+.bmiInfo{
+  display: flex;
+}
+.bmiInfoLeft{
+ background-color: rgba(255, 246, 211, 0.8);
+ border-radius: 50px;
+ margin-left:50px;
+ margin-top: 1.5%;
+}
+
+.bmiInfoRight{
+  margin: 2%;
+  margin-top: 5%;
+}
+
+.formCard2::-webkit-scrollbar-track
+{
+	background-color: #f5f5f55d;
+	border-radius: 10px;
+}
+
+.formCard2::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #f5f5f531;
+}
+
+.formCard2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#81a17b),
+									   to(#347436),
+									   color-stop(.6,#1c5321))
+}
+
+#mapList{
+  list-style: none;
+  border-style:double;
+  text-align: center;
+  width: 450px;
+  padding: 10px;
+  background-color:#f9faf8;
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
